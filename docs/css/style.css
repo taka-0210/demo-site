@@ -153,7 +153,10 @@ ul {
   transition: .3s;
 }
 
-
+.hamburger:hover {
+  background: rgba(30, 78, 168, .08);
+  border-radius: 8px;
+}
 
 @media (max-width:900px) {
 
@@ -995,9 +998,18 @@ section>.section-inner>p {
   }
 
   .header-inner {
-    flex-direction: row;
-    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 18px 24px;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .logo img {
+    height: 38px;
   }
 
   .global-nav ul {
@@ -1007,7 +1019,7 @@ section>.section-inner>p {
   }
 
   .fv {
-    margin-top: 130px;
+    margin-top: 0px;
     height: 620px;
   }
 

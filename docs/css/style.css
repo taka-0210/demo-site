@@ -157,8 +157,21 @@ ul {
 
 @media (max-width:900px) {
 
+  .site-header {
+    position: relative;
+  }
+
   .hamburger {
+
     display: block;
+
+    position: absolute;
+
+    top: 25px;
+    right: 20px;
+
+    z-index: 1001;
+
   }
 
   .global-nav {

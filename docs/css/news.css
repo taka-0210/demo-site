@@ -63,7 +63,7 @@
 
     font-size: 0.9rem;
 
-    font-weight: 700;
+    font-weight: 500;
 
     line-height: 1;
 }
@@ -74,9 +74,9 @@
 
     font-size: 1rem;
 
-    font-weight: 600;
+    font-weight: 500;
 
-    line-height: 1.4;
+    line-height: 1;
 }
 
 .news-item h3 a {
@@ -105,4 +105,35 @@
 .news-item time {
     position: relative;
     top: -8px;
+}
+
+@media (max-width:768px) {
+
+    .news-item {
+
+        display: block;
+
+        height: auto;
+
+        padding: 14px 12px;
+    }
+
+    .news-item time {
+
+        position: static;
+
+        display: block;
+        margin-top: -20px;
+        margin-bottom: -4px;
+    }
+
+    .news-item h3 {
+
+        margin: 0;
+
+        font-size: 0.95rem;
+
+        line-height: 1.5;
+    }
+
 }

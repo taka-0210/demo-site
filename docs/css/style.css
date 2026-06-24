@@ -1141,15 +1141,15 @@ section>.section-inner>p {
 @media (max-width:900px) and (orientation:landscape) {
 
   .news-item img {
-    height: 140px;
+    height: 280px;
   }
 
   .activity-list img {
-    height: 140px;
+    height: 280px;
   }
 
   .history-card img {
-    height: 180px;
+    height: 280px;
   }
 
 }

@@ -1138,6 +1138,24 @@ section>.section-inner>p {
 }
 
 
+@media (max-width:900px) and (orientation:landscape) {
+
+  .news-item img {
+    height: 140px;
+  }
+
+  .activity-list img {
+    height: 140px;
+  }
+
+  .history-card img {
+    height: 180px;
+  }
+
+}
+
+
+
 .fadein {
   opacity: 0;
   transform: translateY(40px);

@@ -1152,6 +1152,14 @@ section>.section-inner>p {
     height: 280px;
   }
 
+  .history-card img {
+    height: 280px;
+  }
+
+  .chairman-content img {
+    height: 400px;
+  }
+
 }
 
 

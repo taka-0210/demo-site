@@ -1158,6 +1158,7 @@ section>.section-inner>p {
 
   .chairman-content img {
     height: 400px;
+    object-position: center top;
   }
 
 }
